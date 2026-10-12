@@ -1,0 +1,62 @@
+{
+  "version": "2.1",
+  "timestamp": 1791560199.9768848,
+  "classes": [
+    "Bicep Curl",
+    "Lunge",
+    "Push-up",
+    "Shoulder Press",
+    "Squat"
+  ],
+  "class_to_idx": {
+    "Bicep Curl": 0,
+    "Lunge": 1,
+    "Push-up": 2,
+    "Shoulder Press": 3,
+    "Squat": 4
+  },
+  "feature_dimension": 68,
+  "total_train_samples": 5400,
+  "total_test_samples": 1800,
+  "train_subjects": 6,
+  "test_subjects": 2,
+  "manifests": {
+    "synthetic": {
+      "source": "Synthetic Kinematic Forward Trigonometry",
+      "samples": 7200,
+      "subjects": 8
+    }
+  },
+  "models": [
+    {
+      "Model": "Random Forest",
+      "Accuracy (%)": 94.78,
+      "Macro F1 (%)": 94.81,
+      "Precision (%)": 94.98,
+      "Recall (%)": 94.78,
+      "Inference Latency (ms)": 53.89,
+      "Throughput (FPS)": 18.6,
+      "Train Time (s)": 1.59
+    },
+    {
+      "Model": "Gradient Boosting",
+      "Accuracy (%)": 95.94,
+      "Macro F1 (%)": 95.96,
+      "Precision (%)": 95.99,
+      "Recall (%)": 95.94,
+      "Inference Latency (ms)": 2.62,
+      "Throughput (FPS)": 382.0,
+      "Train Time (s)": 72.87
+    },
+    {
+      "Model": "Mlp",
+      "Accuracy (%)": 94.61,
+      "Macro F1 (%)": 94.61,
+      "Precision (%)": 94.65,
+      "Recall (%)": 94.61,
+      "Inference Latency (ms)": 0.37,
+      "Throughput (FPS)": 2711.0,
+      "Train Time (s)": 14.63
+    }
+  ]
+}

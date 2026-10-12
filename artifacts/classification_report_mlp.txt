@@ -1,0 +1,13 @@
+=== Model: MLP Neural Net ===
+
+                precision    recall  f1-score   support
+
+         Squat       0.98      0.94      0.96       720
+    Bicep Curl       0.86      0.94      0.90       180
+       Push-up       0.00      0.00      0.00         0
+         Lunge       0.98      0.94      0.96       360
+Shoulder Press       0.78      0.91      0.84       180
+
+      accuracy                           0.94      1440
+     macro avg       0.72      0.75      0.73      1440
+  weighted avg       0.94      0.94      0.94      1440

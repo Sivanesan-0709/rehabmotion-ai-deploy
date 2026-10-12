@@ -1,0 +1,4 @@
+Model,Accuracy (%),Macro F1 (%),Precision (%),Recall (%),Inference Latency (ms),Throughput (FPS),Train Time (s)
+Random Forest,94.78,94.81,94.98,94.78,53.89,18.6,1.59
+Gradient Boosting,95.94,95.96,95.99,95.94,2.62,382.0,72.87
+Mlp,94.61,94.61,94.65,94.61,0.37,2711.0,14.63

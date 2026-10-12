@@ -1,0 +1,13 @@
+=== Model: Temporal LSTM Network ===
+
+                precision    recall  f1-score   support
+
+         Squat       0.98      1.00      0.99       136
+    Bicep Curl       1.00      1.00      1.00        34
+       Push-up       0.00      0.00      0.00         0
+         Lunge       1.00      1.00      1.00        68
+Shoulder Press       1.00      0.91      0.95        34
+
+      accuracy                           0.99       272
+     macro avg       0.80      0.78      0.79       272
+  weighted avg       0.99      0.99      0.99       272

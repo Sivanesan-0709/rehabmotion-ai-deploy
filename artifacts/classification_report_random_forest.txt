@@ -1,0 +1,13 @@
+=== Model: Random Forest ===
+
+                precision    recall  f1-score   support
+
+         Squat       0.97      0.94      0.96       720
+    Bicep Curl       0.79      0.94      0.86       180
+       Push-up       0.00      0.00      0.00         0
+         Lunge       0.98      0.92      0.95       360
+Shoulder Press       0.88      0.93      0.90       180
+
+      accuracy                           0.93      1440
+     macro avg       0.72      0.75      0.73      1440
+  weighted avg       0.94      0.93      0.94      1440

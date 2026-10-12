@@ -1,0 +1,13 @@
+=== Model: SVM (RBF Kernel) ===
+
+                precision    recall  f1-score   support
+
+         Squat       0.97      0.86      0.92       720
+    Bicep Curl       0.87      0.89      0.88       180
+       Push-up       0.00      0.00      0.00         0
+         Lunge       0.99      0.89      0.94       360
+Shoulder Press       0.56      0.93      0.70       180
+
+      accuracy                           0.88      1440
+     macro avg       0.68      0.71      0.69      1440
+  weighted avg       0.92      0.88      0.89      1440
